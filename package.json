@@ -1,0 +1,25 @@
+{
+  "name": "linode-dashboard",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ASerputko/linode-dashboard"
+  },
+  "author": "Andrii Serputko <aserputko@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ASerputko/linode-dashboard/issues"
+  },
+  "homepage": "https://github.com/ASerputko/linode-dashboard",
+  "dependencies": {
+    "consolidate": "^0.14.0",
+    "debug": "^2.2.0",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4"
+  }
+}
