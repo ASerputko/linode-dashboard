@@ -9,6 +9,7 @@ var app = express();
 app.engine('html', engines.ejs);
 app.set('views', path.join(__dirname, 'public'));
 app.set('view engine', 'html');
+app.use(express.static(__dirname + '/public'));
 
 app.use('/', function(req, res) {
     debug(req.method + ' ' + req.url);
